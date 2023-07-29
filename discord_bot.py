@@ -19,4 +19,4 @@ async def on_message(message):
         await message.channel.send('Hello!')
 
 # Pour lancer le bot
-client.run('MTEzNDgwMTQ2NjMxODY1OTYzNA.GTAHuy.KDeaYdOaM2NN4YUWlmJTGAqjO44JL_ox4kHdEY')
+client.run('DISCORD_BOT_TOKEN')
