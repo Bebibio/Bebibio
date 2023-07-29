@@ -1,4 +1,4 @@
-importimport os
+import os
 import discord
 
 intents = discord.Intents.default()
