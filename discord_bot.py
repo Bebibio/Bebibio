@@ -18,5 +18,4 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send('Hello!')
 
-# Pour lancer le bot
 client.run('DISCORD_BOT_TOKEN')
