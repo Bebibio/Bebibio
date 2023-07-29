@@ -17,6 +17,6 @@ async def on_message(message):
 
     if message.content.startswith('$hello'):
         await message.channel.send('Hello!')
-
+#test
 bot_token = os.environ.get("DISCORD_BOT_TOKEN")
 client.run(bot_token)
